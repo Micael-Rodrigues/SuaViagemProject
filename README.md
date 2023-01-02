@@ -1,8 +1,8 @@
 <h1 align="center">
-  Bem Vindo(a) ao Planeta Pets!
+  Bem Vindo(a) a Sua Viagem!
 </h1>
 
-![banner](https://ecosafepest.com/wp-content/uploads/2019/06/safe-for-pets-banner-1.jpg)
+<img align="center" alt="Banner" style="border-radius:50px;" src="Let's travel.jpg">
 
 <hr>
 
@@ -13,8 +13,6 @@
 ### Tópicos 
 
 - [Descrição do projeto](#descrição-do-projeto)
-
-- [Funcionalidades](#funcionalidades)
 
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
@@ -29,35 +27,31 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Quem não ama cachorros e gatos? Um animalzinho em casa é uma amizade para vida toda! A convivência com pets traz inúmeros benefícios para as pessoas, como: vinculo afetivo, mais alegria em casa e união na família. Mas o maior benefício que a adoção de animais pode nos trazer é a luta contra o abandono. Segundo a Organização Mundial da Saúde (OMS), somente no Brasil, cerca de 30 milhões de animais estão em situação de abandono, sendo aproximadamente 20 milhões de cães e 10 milhões de gatos. Então, nos da Planeta Pets Project estamos aqui para combater o abandono de animais e ajudar você a encontrar um amigo para toda vida.
+Nada melhor do que sair de férias e conhecer lugares ainda desconhecidos ou lugares que amamos, não é mesmo? Pois, eu adoro viajar com minha família e amigos! Além disso, esse momento permite que nossos corpos, mentes e emoções fiquem super bem da melhor forma possível, recarregando nossas energias e refrescando nossas mentes.
 
-Adoção é um ato de amor.
+Afinal, descansar, conhecer pessoas, lugares e novas experiências proporcionam total sensação de bem-estar. Independentemente de ser uma viagem de férias ou de feriado, ela sempre trará pontos positivos e muitas histórias para contar. Entretanto, com tudo isso de bom há muitas pessoas que nem se quer pisaram em um aeroporto na sua vida e para essas pessoas pensamos em ajuda-las com um site que dê todo o apoio para dar os primeiros passos nesse universo das viagens!
 
-![Descrição do projeto](https://img.freepik.com/free-photo/front-view-beautiful-dog-with-copy-space_23-2148786562.jpg?w=2000)
+Então, Let's travel? ✈️
+
+![Descrição do projeto](https://carregandomalinhas.com.br/wp-content/uploads/2019/09/banner_full_arroundtheword.jpg)
 </p>
-
-## Funcionalidades
-
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo adotar ou cadastrar um animal para adoção.
-
-:heavy_check_mark: `Funcionalidade 2:` Processo de adoção simples e seguro.
 
 
 ###
 
 ## Ferramentas utilizadas
 
-[![My Skills](https://skills.thijs.gg/icons?i=react,vscode)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=html,css,js,vscode)](https://skills.thijs.gg)
 
 ###
 
 ## Licença
 
-Planeta Pets is [GNU General Public License v3.0](./LICENSE).
+Sua Viagem is [GNU General Public License v3.0](./LICENSE).
 
 ## Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto](https://github.com/micael-rodrigues/PlanetaPetsProject) ou [baixá-lo](https://github.com/micael-rodrigues/PlanetaPetsProject/archive/refs/heads/main.zip).
+Você pode [acessar o código fonte do projeto](https://github.com/micael-rodrigues/SuaViagemProject) ou [baixá-lo](https://github.com/micael-rodrigues/SuaViagemProject/archive/refs/heads/main.zip).
 
 
 ## Abrir e rodar o projeto
@@ -71,7 +65,7 @@ Após baixar o projeto, você pode abrir com o `Visual Studio Code`. Para isso, 
 O `Visual Studio Code` deve carregar o projeto, aguarde até finalizar. Ao finalizar, você pode executar o site. 🏆 
 
 ## Desenvolvedores
-| [<img src="https://avatars.githubusercontent.com/u/114267498?v=4" width=115><br><sub>Micael Rodrigues</sub>](https://github.com/micael-rodrigues) |  [<img src="https://avatars.githubusercontent.com/u/81538817?v=4" width=115><br><sub>Jamily Santiago</sub>](https://github.com/jamilysantiago) |  [<img src="https://avatars.githubusercontent.com/u/81435303?v=4" width=115><br><sub>Viviane Magalhães</sub>](https://github.com/Viviane-Valente) | [<img src="https://avatars.githubusercontent.com/u/89037582?v=4" width=115><br><sub>José Eleilton</sub>](https://github.com/nilton404) | [<img src="https://avatars.githubusercontent.com/u/112650636?v=4" width=115><br><sub>Wanyo Castelo</sub>](https://github.com/WanyoPR)
-|:---: | :---: | :---: | :---: | :---: 
+| [<img src="https://avatars.githubusercontent.com/u/114267498?v=4" width=115><br><sub>Micael Rodrigues</sub>](https://github.com/micael-rodrigues) |  [<img src="https://avatars.githubusercontent.com/u/81538817?v=4" width=115><br><sub>Jamily Santiago</sub>](https://github.com/jamilysantiago) 
+|:---: | :---: |
 
 
