@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sua Viagem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/assets/css/login.css" rel="stylesheet">
+    <link href="https://cdn-icons.flaticon.com/png/512/2200/premium/2200326.png?token=exp=1656451014~hmac=a004b07d1e4bd4c39393e9fbebd313f8" rel="icon">
+    
+</head>
+<body>
+    <div class='container'>
+        <div class='card'>
+          <h1> Entrar </h1>
+          
+          <div id='msgError'></div>
+          
+          <div class='label-float'>
+            <input type='text' id='usuario' paceholder='' required>
+            <label id='userLabel' for='usuario'>Usuario</label>
+          </div>
+          
+          <div class='label-float'>
+            <input type='password' id='senha' paceholder='' required>
+            <label id='senhaLabel' for='senha'>Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class='justify-center'>
+            <button onclick='entrar()'>Entrar</button>
+          </div>
+          
+          <div class='justify-center'>
+            <hr>
+          </div>
+          
+          <p> Não tem uma conta?
+            <a href='/login/cadastro.html'> Cadastre-se </a>
+          </p>
+          
+        </div>
+        </div>
+
+<script>
+  let btn = document.querySelector('.fa-eye')
+
+btn.addEventListener('click', ()=>{
+  let inputSenha = document.querySelector('#senha')
+  
+  if(inputSenha.getAttribute('type') == 'password'){
+    inputSenha.setAttribute('type', 'text')
+  } else {
+    inputSenha.setAttribute('type', 'password')
+  }
+})
+
+function entrar(){
+  let usuario = document.querySelector('#usuario')
+  let userLabel = document.querySelector('#userLabel')
+  
+  let senha = document.querySelector('#senha')
+  let senhaLabel = document.querySelector('#senhaLabel')
+  
+  let msgError = document.querySelector('#msgError')
+  let listaUser = []
+  
+  let userValid = {
+    nome: '',
+    user: '',
+    senha: ''
+  }
+  
+  listaUser = JSON.parse(localStorage.getItem('listaUser'))
+  
+  listaUser.forEach((item) => {
+    if(usuario.value == item.userCad && senha.value == item.senhaCad){
+       
+      userValid = {
+         nome: item.nomeCad,
+         user: item.userCad,
+         senha: item.senhaCad
+       }
+      
+    }
+  })
+   
+  if(usuario.value == userValid.user && senha.value == userValid.senha){
+    window.location.href = '/index.html'
+    
+    let mathRandom = Math.random().toString(16).substr(2)
+    let token = mathRandom + mathRandom
+    
+    localStorage.setItem('token', token)
+    localStorage.setItem('userLogado', JSON.stringify(userValid))
+  } else {
+    userLabel.setAttribute('style', 'color: red')
+    usuario.setAttribute('style', 'border-color: red')
+    senhaLabel.setAttribute('style', 'color: red')
+    senha.setAttribute('style', 'border-color: red')
+    msgError.setAttribute('style', 'display: block')
+    msgError.innerHTML = 'Usuário ou senha incorretos'
+    usuario.focus()
+  }
+  
+}
+
+
+
+</script>
+</body>
+</html>
