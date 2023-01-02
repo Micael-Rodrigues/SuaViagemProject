@@ -1,0 +1,121 @@
+#background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+
+
+
+div#card{
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.664);
+    animation: myAnim 1s ease 1s normal forwards;
+}
+
+div#card2{
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 7%;
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.664);
+    animation: myAnim 1s ease 1s 1 normal forwards;
+}
+
+div#card3{
+    width: 46%;
+    margin-top: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.664);
+    animation: myAnim 1s ease 1s 1 normal forwards;
+}
+
+div#card4{
+    width: 96%;
+    margin-top: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.664);
+    animation: myAnim 1s ease 1s 2 normal forwards;
+}
+
+#credenciais{
+    text-align: center;
+    color: #ffffff;
+}
+
+@keyframes myAnim {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 50px;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+    border-radius: 50px;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+    border-radius: 50px;
+    color: white;
+}
